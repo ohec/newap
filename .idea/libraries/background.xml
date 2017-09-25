@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="background" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/popup.js" />
+        <item url="file://$PROJECT_DIR$/options.js" />
+        <item url="file://$PROJECT_DIR$/utils.js" />
+        <item url="file://$PROJECT_DIR$/extension.js" />
+        <item url="file://$PROJECT_DIR$/background.js" />
+        <item url="file://$PROJECT_DIR$/locale.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/popup.js" />
+      <root url="file://$PROJECT_DIR$/options.js" />
+      <root url="file://$PROJECT_DIR$/utils.js" />
+      <root url="file://$PROJECT_DIR$/extension.js" />
+      <root url="file://$PROJECT_DIR$/background.js" />
+      <root url="file://$PROJECT_DIR$/locale.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

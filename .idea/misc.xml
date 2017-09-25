@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="id" value="1496566276381" />
+    <option name="name" value="default" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES5" />
+  </component>
+  <component name="ParserProjectConfiguration">
+    <class-path />
+  </component>
+  <component name="XPlanner.Configuration">
+    <xplanner_version value="0.7" />
+    <xplanner_url value="http://localhost:8080/xplanner" />
+    <projectId value="-1" />
+    <projectName value="" />
+    <server-timezone value="Australia/Sydney" />
+    <browser-path path="" />
+    <auto-pause enabled="false" period="300000" pair-id="-1" />
+    <default-pair />
+    <twiki-schemes />
+    <proxy use-proxy="false" host="" port="0" />
+    <legend>
+      <not_estimated rgb="-39322" />
+      <not_started rgb="-1" />
+      <started rgb="-154" />
+      <working rgb="-13395457" />
+      <completed rgb="-6684775" />
+    </legend>
+  </component>
+</project>
