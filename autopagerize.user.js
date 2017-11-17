@@ -36,6 +36,11 @@
 	  "pageElement": "//div[@class='post']",
 	  "nextLink": "//a[(text()='Older Entries')]",
 	}, {
+	  "exampleUrl": "https://rlsbb.unblocked.pro/category/tv-shows/",
+	  "url": "^https://rlsbb\\.unblocked\\.([a-zA-Z]*)/category/tv-shows/",
+	  "pageElement": "//div[@class='post']",
+	  "nextLink": "//a[(text()='Older Entries')]",
+	}, {
 	  "exampleUrl": "http://scene-rls.net/category/tvshows/page/4/",
 	  "url": "^http://scene-rls\\.net/category/tvshows/",
 	  "pageElement": "//div[@class='post']",
@@ -496,11 +501,18 @@
   });
 
 // new google search sucks!
+
+  //https://www.google.com.au/search
   if (location.href.match("^http://[^.]+\.google\.(?:[^.]{2,3}\.)?[^./]{2,3}/.*(&fp=)")) {
 	var to        = location.href.replace(/&fp=.*/, "");
 	// console.log([location.href, to])
 	location.href = to;
   }
+
+  if (location.href.match("^(http|https)://[^.]+\.google\.(?:[^.]{2,3}\.)?[^./]{2,3}/")) {
+
+  }
+
 // fix youtube thumbnails
 // http://www.youtube.com/results?search_query=a
   if ((/^https?:\/\/www.youtube.com\/results.+/).test(location.href)) {
